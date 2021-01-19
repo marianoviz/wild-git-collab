@@ -38,7 +38,7 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 #Mariano's changes
 ggplot(data = diamonds, aes(x = price, y = carat)) +
   geom_point() +
-  theme_bw()
+  theme_dark()
 ```
 
 ```{r break-it-2}
