@@ -38,6 +38,7 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 #Mariano's changes
 ggplot(data = diamonds, aes(x = price, y = carat)) +
   geom_point() +
+ae-branch
   theme_bw()
 
 # alex's changes
@@ -47,6 +48,9 @@ expensive_diamonds <- diamonds %>%
 ggplot(data = diamonds, aes(x = price, y = carat)) +
   geom_point() +
   theme_void()
+
+  theme_dark()
+main
 ```
 
 ```{r break-it-2}
