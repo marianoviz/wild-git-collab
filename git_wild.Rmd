@@ -54,7 +54,9 @@ main
 ```
 
 ```{r break-it-2}
-
+# alex's changes
+only_premium_diamonds <- diamonds %>% 
+  filter(cut == "Premium")
 ```
 
 ## END Discussion 3
